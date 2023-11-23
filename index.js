@@ -1,4 +1,5 @@
 const inquirer=require('inquirer')
+const fs=require('fs')
 
 
 const prompts =[
@@ -27,13 +28,13 @@ const prompts =[
 ];
 
 
-function writeToFile(fileName, data){
-    const{logoName, color, shape, shapeColor}=data;
-    const fileName= 'logo.svg';
-    
+// function writeToFile(fileName, data){
+//     const{logoName, color, shape, shapeColor}=data;
+//     fs.writeFile(fileName, ;
 
-    console.log('Your logo has been created!')
-}
+
+//     console.log('Your logo has been created!')
+// }
 function init(){
     inquirer.prompt(prompts)
 }
