@@ -25,6 +25,15 @@ const prompts =[
     }
 
 ];
+
+
+function writeToFile(fileName, data){
+    const{logoName, color, shape, shapeColor}=data;
+    const fileName= 'logo.svg';
+    
+
+    console.log('Your logo has been created!')
+}
 function init(){
     inquirer.prompt(prompts)
 }
