@@ -27,7 +27,7 @@ const prompts =[
 
 ];
 
-.then((l))
+
 
 
 function init(){
