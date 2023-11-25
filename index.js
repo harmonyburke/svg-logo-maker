@@ -27,15 +27,12 @@ const prompts =[
 
 ];
 
-
-// function writeToFile(fileName, data){
-//     const{logoName, color, shape, shapeColor}=data;
-//     fs.writeFile(fileName, ;
+.then((l))
 
 
-//     console.log('Your logo has been created!')
-// }
 function init(){
     inquirer.prompt(prompts)
 }
+
+
 init()
