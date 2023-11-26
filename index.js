@@ -49,7 +49,7 @@ function prompts() {
             chosenShape.setColor(shapeColor)
             // begin function for logo
             const logo = new Logo()
-            logo.setText(logoName, color)
+            logo.setLogo(logoName, color)
             logo.setShape(chosenShape)
             return writeFile('logo.svg', logo.render())
         })
@@ -62,12 +62,3 @@ function prompts() {
 
 }
 prompts()
-// function init(){
-//     inquirer.prompt(prompts)
-//     // .then(data){
-//     //     fs.writeFile('logo.svg', )
-//     // }
-// }
-
-
-// init()
