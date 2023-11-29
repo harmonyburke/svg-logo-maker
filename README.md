@@ -13,7 +13,7 @@ To use this application, user will need to have Node and VS code installed.
 
 To use this application, run node index.js in the integrated terminal in VS code. Users will be prompted with 4 questions. Once all prompts are answered, a logo.svg file will be generated and ready to use!
 
-Please refer to this link for further instruction https://drive.google.com/file/d/1yMR__r_Hyq2ax2zRD823nlXGjutbFqPk/view?usp=sharing
+Please refer to this link for further instruction https://drive.google.com/file/d/1R47glB9NVyCGgdc636B1KbPnlBkOLPUO/view?usp=sharing
 
 
 
